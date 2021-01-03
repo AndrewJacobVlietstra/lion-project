@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion's Social Behaviours</title>
+    <link type="text/css" rel="stylesheet" href="/styles-1440.css" media="screen and (min-width: 1921px)">
+    <link type="text/css" rel="stylesheet" href="/styles-1080.css" media="screen and (max-width: 1920px)">
+    <link type="text/css" rel="stylesheet" href="/styles-mobile.css" media="screen and (max-width: 480px)">
+
+</head>
+
+<body>
+
+    <div class="landingPage" id="top">
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/index.html#top">Home</a></li>
+                    <li><a href="/index.html#socialBehaviour">Social Behaviour</a></li>
+                    <li><a href="/index.html#huntingInfo">Hunting</a></li>
+                    <li><a href="/index.html#lionCommunication">Communication</a></li>
+                    <li><a href="/index.html#orderSouvenir">Souvenirs</a></li>
+                </ul>
+            </nav>
+            <h1>Lions Social And Wild Behaviours</h1>
+            <h2>By Andrew Vlietstra</h2>
+        </header>
+    </div>
+
+
+    <div class="mainContent" id="socialBehaviour">
+        <div class="socialBehaviour">
+            <h1><span>Social Behaviour</span></h1><br>
+            <p><img class="zoom" class="imgSocial" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lions_Family_Portrait_Masai_Mara.jpg/800px-Lions_Family_Portrait_Masai_Mara.jpg" align="right" valign="middle"></p>
+            <p style="text-align: left">The lion is the most social of all wild felid species, living in groups of related individuals with their offspring. Such a group is called a "pride". Groups of male lions are called "coalitions". Females form the stable social unit in a pride and do not tolerate outside females. Membership changes only with the births and deaths of lionesses, although some females leave and become nomadic. The average pride consists of around 15 lions, including several adult females and up to four males and their cubs of both sexes. Large prides, consisting of up to 30 individuals, have been observed. The sole exception to this pattern is the Tsavo lion pride that always has just one adult male. Male cubs are excluded from their maternal pride when they reach maturity at around two or three years of age.</p>    
+        </div>
+
+        <div class="huntingInfo" id="huntingInfo">
+            <h1><span>Pack Hunting</span></h1><br>
+            <p><img class="zoom" class="imgHunting" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Lions_taking_down_cape_buffalo.jpg/800px-Lions_taking_down_cape_buffalo.jpg" align="left" valign="middle"></p>
+            <p style="text-align: left">The lion is a generalist hypercarnivore and is considered to be both an apex and keystone predator due to its wide prey spectrum. Its prey consists mainly of mammals—particularly ungulates—weighing 190–550 kg (420–1,210 lb) with a preference for blue wildebeest, plains zebra, African buffalo, gemsbok and giraffe. Lions also hunt common warthog depending on availability, although the species is below the preferred weight range. In India, sambar deer and chital are the most commonly recorded wild prey, while domestic livestock may contribute significantly to their diet. They usually avoid fully grown adult elephants, rhinoceroses and hippopotamus, as well as small prey like dik-dik, hyrax, hare and monkey. Unusual prey items include porcupines, small reptiles, Cape fur seals and cormorants. Lions kill other predators such as leopard, cheetah and spotted hyena but seldom consume them.</p>
+        </div>
+
+        <div class="communication" id="lionCommunication">
+            <h1><span>Communication</span></h1>
+            <p>
+            <video class="zoom" controls preload="metadata" poster="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Lion_cub_with_mother.jpg/800px-Lion_cub_with_mother.jpg">
+                <source src="https://upload.wikimedia.org/wikipedia/commons/9/94/Lion_Cubs_Phinda_2011.ogv">
+            </video>
+            </p>
+            <p style="text-align: left">Lions have an array of facial expressions and body postures that serve as visual gestures. A common facial expression is the "grimace face" or flehmen response, which a lion makes when sniffing chemical signals and involves an open mouth with bared teeth, raised muzzle, wrinkled nose closed eyes and relaxed ears. Lions also use chemical and visual marking; males will spray and scrape plots of ground and objects within the territory. The lion's repertoire of vocalisations is large; variations in intensity and pitch appear to be central to communication. </p>
+        </div>
+    </div>
+
+
+    <div class="secondaryContent" id="orderSouvenir">
+        <h1 class="heading"><span>Order Souvenir</span></h1>
+        
+        <form action="" method="POST">
+
+            <div class="tableRow">
+                <p>
+                    Choose Your Souvenir:
+                </p>
+    
+                <p>
+                    <select name="souvenir">
+                    <option value="lionHat">Lion Hat</option>
+                    <option value="safariGlasses">Safari Glasses</option>
+                    <option value="roaringMug">Roaring Mug</option>
+                    <option value="lionKeychain">Lion KeyChain</option>
+                    </select>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p> 
+                    Colour: 
+                </p>
+    
+                <p>
+                    <input type="radio" id="redtype" name="colour" value="red"> <label for="redtype">Red</label> <br>
+                    <input type="radio" id="bluetype" name="colour" value="blue" checked> <label for="bluetype">Blue</label>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p> 
+                    # of Product: 
+                </p>
+                <p>
+                    <input type="number" name="items" min="1" max="10" value="1">
+                </p>
+            </div>
+    
+            <div class="tableRow label">
+                <p>
+                    Must arrive by date: 
+                </p>
+                <p>
+                    <input type="date" name="date" required> 
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    Extras: 
+                </p>
+                <p> 
+                    <input type="checkbox" id="giftWrap" name="extras[]" value="giftwrap"> <label for="giftWrap">Gift Wrap (+ $3.99)</label> <br>
+                    <input type="checkbox" id="freeCatalog" name="extras[]" value="catalog" checked> <label for="freeCatalog">Include Catalog with Order (FREE)</label>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p class="heading">
+                    Ship to <br>
+                </p>
+                <p>
+    
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    Name:
+                </p>
+                <p>
+                    <input type="text" name="name" value="" placeholder="(Name here)" required>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    Address: 
+                </p>
+                <p>
+                    <input type="text" name="address" value="" placeholder="(Address here)" required>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    City: 
+                </p>
+                <p>
+                    <input type="text" name="city" value="" placeholder="(City here)" required>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    State: 
+                </p>
+                <p>
+                    <input type="text" name="state" value="" placeholder="(State here)" required>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    Zip: 
+                </p>
+                <p>
+                    <input type="text" name="zip" value="" placeholder="(Zip code here)" required>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    Phone: 
+                </p>
+                <p>
+                    <input type="tel" name="phone" value="" placeholder="123-456-7890" required>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                    Order Comments: 
+                </p>
+                <p>
+                    <textarea name="comments" rows="5" cols="40" placeholder="Leave specific instructions here if you need!"></textarea>
+                </p>
+            </div>
+    
+            <div class="tableRow">
+                <p>
+                </p>
+                <p>
+                    <input type="submit" id="submitButton" name="orderNow" value="Place Order">
+                </p>
+            </div>
+    
+            </form>
+    </div>
+
+    <footer>
+        <p>
+            Copyright &copy; 2021 Andrew Vlietstra.  All Rights Reserved<br>
+            <a href="/index.html#top" title="Back to Top of Page">Back to Top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
