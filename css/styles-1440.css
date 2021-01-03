@@ -3,18 +3,18 @@
 /* Fonts --------------- */
 @font-face  { 
     font-family: 'brushKing';
-    src: url("/fonts/brushKing.otf");
+    src: url("../fonts/brushKing.otf");
 }
 
 @font-face  { 
     font-family: 'moonGlade';
-    src: url("/fonts/moonglade.ttf");
+    src: url("../fonts/moonglade.ttf");
 }
 
 @font-face  { 
     font-family: 'empirez';
-    src: url("/fonts/empirez.otf");
-    src: url("/fonts/empirez.ttf");
+    src: url("../fonts/empirez.otf");
+    src: url("../fonts/empirez.ttf");
 }
 
 /* Eliminates white border around landing page image! -----*/
