@@ -72,7 +72,7 @@ span {
 .landingPage {
 	background: linear-gradient(#f39e1e, transparent 90%),
                 linear-gradient(0deg, #fff, transparent 90%),
-                url('/images/lionFront1080.jpg') no-repeat 65% 0% fixed;
+                url('../images/lionFront1080.jpg') no-repeat 65% 0% fixed;
                 
 	background-size: cover;
     height:	800px;
